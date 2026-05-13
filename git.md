@@ -36,7 +36,17 @@ _Note:_`--all` and `-A` for all files, `.` for files in one folder only, `*` for
 10. `git commit -m "message"` - commits changes to repository
 11. `git reset HEAD~` - resets last commit
 12. `git rm filename.extension` - deletes and stages filename directly in one command
-13.
+
+_Note:_ if file is modified before deleting, then Git throws errors.
+
+`-f or --force`-forced, `--cached`-cached, `-r`-recursively
+
+- To force delete, use `git rm -f four.txt` (`--force` works as well)
+- To make file untracked but not physically deleted: `git rm --cached four.txt`
+- To delete folder and subfolders inside: `git rm -r <Folder>`
+
+13. `git reset --hard` - brings back deleted files as well as reset changes
+14. ``
 
 ## Global Changes:
 
