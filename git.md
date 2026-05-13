@@ -33,7 +33,10 @@ Git can run locally or hosted online (GitHub).
 _Note:_`--all` and `-A` for all files, `.` for files in one folder only, `*` for new files
 
 9. `git reset` - resets all changes from `git add` before committing
-10.
+10. `git commit -m "message"` - commits changes to repository
+11. `git reset HEAD~` - resets last commit
+12. `git rm filename.extension` - deletes and stages filename directly in one command
+13.
 
 ## Global Changes:
 
