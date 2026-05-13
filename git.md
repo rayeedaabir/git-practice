@@ -16,7 +16,7 @@ Branch in Git is a separate line of development where we can work independently.
 
 **Analogy:** perfecting dish in trial kitchen before taking to main kitchen to serve customers.
 
-Multiple branches can be created, serves as secure ways to make changes without breaking original code.
+Multiple branches can be created, serves as secure ways to make changes without breaking original code. Commits made in branches are exclusive to that branch only.
 
 ## Terminal Commands:
 
