@@ -10,15 +10,7 @@ Git can run locally or hosted online (GitHub).
 2. **Staging Area / Index (Staged stage)** - add files here using `git add`
 3. **Local Repository (Committed)** - use `git commit -m message` to commit changes to Git/GitHub.
 
-### Branching:
-
-Branch in Git is a separate line of development where we can work independently. Once changes are fixed and perfected, they can be merged back into main/master branch.
-
-**Analogy:** perfecting dish in trial kitchen before taking to main kitchen to serve customers.
-
-Multiple branches can be created, serves as secure ways to make changes without breaking original code.
-
-## Terminal Commands:
+## Terminal commands:
 
 1. `cd filename` - change directory to "filename"
 2. `mkdir filename` - make new directory of "filename"
