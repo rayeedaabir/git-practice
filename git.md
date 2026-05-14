@@ -55,6 +55,7 @@ _Note:_ if file is modified before deleting, then Git throws errors.
 
 13. `git reset --hard` - brings back deleted files as well as reset changes
 14. `git log` - shows all commits made to repository
+15. `git diff latestlog earlierlog` - shows commit changes made between two versions (use latest one first)
 
 _Note:_ to see cleaner logs: `git log --oneline`
 
@@ -65,6 +66,15 @@ _Note:_ to see cleaner logs: `git log --oneline`
 3. `git checkout development` - switch to "development" branch
 4. `git merge main -m "message"` - merges main branch to development branch
 5. `git merge development -m "message"` - merges development branch to main branch (do after `git checkout main`)
+
+_Note:_ use `git log --oneline` to get commit track number, then use said number in `git checkout tracknumber` to get to previous version.
+
+Use `git checkout main` to go to latest version.
+
+## GitHub Push/Pull:
+
+1. `git push origin branch` - pushes branch to GitHub
+2.
 
 ## Global Changes:
 
