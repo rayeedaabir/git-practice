@@ -80,6 +80,29 @@ Use `git checkout main` to go to latest version.
 
 _Note:_ use `git pull` to do both fetch and merge. `pull = fetch + merge`
 
+5. `git restore filename.extension` - to restore file from last commit
+
+_Note:_ restore mainly used to restore uncommitted changes in local repository.
+
+- use repository name `git restore myFolder` to restore repository,
+- `git restore .` to restore everything.
+- `git restore --staged myFolder` or `.` to restore from staged state
+
+6. `git stash` - stash changes before switching branches (used when committing isn't done yet)
+
+_Note:_
+
+- use `git stash pop` to fetch all changes back, removes from stash list.
+- Git stores multiple stashes in stack, use `git stash apply` to both get the changes back as well as have stash in stack. (pop removes from list, apply keeps in list, both reverts changes.)
+- Use `git stash list` to get list of stashes (has identifier marks)
+- Use `git stash drop ID` to drop specific stash ID.
+
+7. `git revert ID` - creates new commit where it brings project from previous commit (creates Commit 3 from taking Commit 1)
+
+_Note:_ `git reset` does not keep changes after commit, deletes all changes. `git revert` creates new commit but keeps faulty commit's updates.
+
+8. `git rebase` - updates commits on another branch to current branch, reduces commit clutter in `git log`
+
 ## Global Changes:
 
 1. `git config --global user.email "rayeed.aabir@gmail.com"` - changes email address of user
