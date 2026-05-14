@@ -4,7 +4,7 @@ Consider coffee vs coffee shop analogy: Git is Coffee, GitHub is Coffee Shop.
 
 Git can run locally or hosted online (GitHub).
 
-### Git has three stages:
+### Git has 3 stages:
 
 1. **Working Directory (Modified)** - all changes are in local storage
 2. **Staging Area / Index (Staged stage)** - add files here using `git add`
@@ -17,6 +17,10 @@ Branch in Git is a separate line of development where we can work independently.
 **Analogy:** perfecting dish in trial kitchen before taking to main kitchen to serve customers.
 
 Multiple branches can be created, serves as secure ways to make changes without breaking original code. Commits made in branches are exclusive to that branch only.
+
+### Pull Request (PR):
+
+Pull request means we make our changes to our own branches, but after we're done, we send a pull request to main branch, to ask for permission to merge our code into main.
 
 ## Terminal Commands:
 
@@ -102,6 +106,8 @@ _Note:_
 _Note:_ `git reset` does not keep changes after commit, deletes all changes. `git revert` creates new commit but keeps faulty commit's updates.
 
 8. `git rebase` - updates commits on another branch to current branch, reduces commit clutter in `git log`
+
+_Note:_ generally not recommended to use rebase since rebase overwrites on commit logs and IDs, causes sync problems especially in public repositories. Recommended to inform team before rebasing.
 
 ## Global Changes:
 
