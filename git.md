@@ -74,7 +74,11 @@ Use `git checkout main` to go to latest version.
 ## GitHub Push/Pull:
 
 1. `git push origin branch` - pushes branch to GitHub
-2.
+2. `git fetch` - fetches latest update from GitHub, does not show on local repository
+3. `git merge` - merges with local repository
+4. `git pull` - pulls and merges latest update from GitHub
+
+_Note:_ use `git pull` to do both fetch and merge. `pull = fetch + merge`
 
 ## Global Changes:
 
