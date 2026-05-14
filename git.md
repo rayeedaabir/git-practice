@@ -63,6 +63,8 @@ _Note:_ to see cleaner logs: `git log --oneline`
 1. `git branch` - shows branches present
 2. `git branch development` - creates new branch "development"
 3. `git checkout development` - switch to "development" branch
+4. `git merge main -m "message"` - merges main branch to development branch
+5. `git merge development -m "message"` - merges development branch to main branch (do after `git checkout main`)
 
 ## Global Changes:
 
