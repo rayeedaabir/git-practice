@@ -71,6 +71,11 @@ _Note:_ use `git log --oneline` to get commit track number, then use said number
 
 Use `git checkout main` to go to latest version.
 
+## GitHub Push/Pull:
+
+1. `git push origin branch` - pushes branch to GitHub
+2.
+
 ## Global Changes:
 
 1. `git config --global user.email "rayeed.aabir@gmail.com"` - changes email address of user
